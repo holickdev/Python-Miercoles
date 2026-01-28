@@ -149,7 +149,20 @@ PISTAS:
 """
 
 # Escribe tu código aquí:
+numeros = [5, -3, 8, -1, 0, 12, -7, 4, 78]
+positivos = 0
+negativos = 0
 
+for i in range(len(numeros)):
+    if numeros[i] > 0: # 0 -> 1 -> 2 -> ... -> len(numeros) - 1
+        positivos = positivos + 1
+    elif numeros[i] < 0:
+        negativos += 1
+    else:
+        print("epale esto es un cero")
+
+print("Números positivos:", positivos)
+print("Números negativos:", negativos)
 
 # ========================================
 # EJERCICIO PRÁCTICO 2 - TAREA

@@ -6,7 +6,7 @@ Aprende a recorrer listas con ciclos for
 """
 
 # ========================================
-# RECORRER UNA LISTA CON FOR
+# RECORRER UNA LISTA UTITLIZANDO FOR
 # ========================================
 
 frutas = ["manzana", "banana", "naranja", "uva"]
